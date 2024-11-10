@@ -241,11 +241,15 @@ header {
     margin: 10px;
 }
 .item-image {
-    width: 100%;
-        box-shadow: 1px 150px 100px 10px #00000091;
+      width: 100%;
+    box-shadow: 1px 150px 500px 10px #00000098;
+    transition: normal 0.5s cubic-bezier(0.42, 0, 0.4, 0.77) 0.1s;
+    transform: translateY(150px);
 }
 .item-image:hover {
-   transform: translateY(15px);
+      transform: translateY(0px);
+    transform: skew(7deg, 5deg);
+}
 }
 .rating {
     font-size: 12px;
