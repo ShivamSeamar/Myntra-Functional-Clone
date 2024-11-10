@@ -242,6 +242,10 @@ header {
 }
 .item-image {
     width: 100%;
+        box-shadow: 1px 150px 100px 10px #00000091;
+}
+.item-image:hover {
+   transform: translateY(15px);
 }
 .rating {
     font-size: 12px;
